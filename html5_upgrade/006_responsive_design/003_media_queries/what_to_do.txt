@@ -1,0 +1,13 @@
+Media Queries look like this:
+
+@media screen and (max-width: 640px) {
+    Insert your overrides in here.
+}
+
+1. Insert a media query into your page which unfloats the article and the aside, and sets width auto.
+2. Resize your browser. Wow, you have a responsive design!
+
+Further Tasks
+
+1. If you have a three column layout, add another media query that responds at 1000px. The aim is to convert the 3 column layout into a 2 column layout at 1000px, then convert it into a one column layout at 640px.
+

@@ -1,0 +1,88 @@
+ul, li {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+li {
+  border-left:2px solid #999;
+  float:left;
+}
+
+li:first-child {
+  border-left:none;
+}
+
+a {
+  display:block;
+  padding:14px;
+  text-decoration:none;
+}
+nav {
+  border:1px solid red;
+}
+
+nav:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media screen and (max-width:480px) {
+  li {
+    float:none;
+    border-left:none;
+  }
+
+  a {
+    border:1px solid #bbb;
+    background: #ccc;
+    color:#222;
+    margin-bottom:10px;
+    border-radius:10px;
+    text-align:center;
+  }
+
+  a:active, a:hover {
+    border:1px solid red;
+  }
+}
+
+
+
+
+
+a {
+  color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Use a float layout to create a horizontal navigation out of an unordered list.
+ * Now use a media query to make it vertical
+ * @media screen and (max-width: 800px) {
+ *
+ * }
+ */
+
+
+/* Clearfix code
+
+.group:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+*/
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+  <head>
+    <title>Semantic Tags</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        Html5 Upgrade
+      </h1>
+      <p class="strapline">
+        by Nicholas Johnson
+      </p>
+    </div>
+
+    <h2>Sections</h2>
+    <ol>
+      <li>
+        <a href='#new_tags'>
+          New Tags
+        </a>
+      </li>
+      <li>
+        <a href='#header'>
+          Headers
+        </a>
+      </li>
+      <li>
+        <a href='#footer'>
+          Footers
+        </a>
+      </li>
+      <li>
+        <a href='#article'>
+          Articles
+        </a>
+      </li>
+      <li>
+        <a href='#section'>
+          Sections
+        </a>
+      </li>
+      <li>
+        <a href='#nav'>
+          Navigation
+        </a>
+      </li>
+      <li>
+        <a href='#aside'>
+          Asides
+        </a>
+      </li>
+      <li>
+        <a href='#figure'>
+          Figure and Figcaptions
+        </a>
+      </li>
+      <li>
+        <a href='#hgroup'>
+          Hgroup
+        </a>
+      </li>
+      <li>
+        <a href='#div'>
+          Div
+        </a>
+      </li>
+      <li>
+        <a href='#span'>
+          Span
+        </a>
+      </li>
+    </ol>
+
+    <h2 id="new_tags">All New, Super Semantic Tags</h2>
+    <p>HTML5 comes with a bunch of new block level elements for your semantic delight. Gone are the days when everything was a div.</p>
+
+
+
+
+    <h2 id="header">Header</h2>
+    <p>The header element groups together a header.</p>
+    <p>You can have as many header elements as you like on a page. If your page contains lots of logical sections, this might make sense. On most pages though you will only have one.</p>
+
+
+    <h2 id="footer">Footers</h2>
+    <p>The footer element is similar, in that it groups together footer information.</p>
+
+
+    <h2 id="article">Article</h2>
+    <p>An article element represents a self contained article on a page. It represents a single, complete and coherent piece of text, what you or I might describe as an article.</p>
+    <p><em>"The article element represents a self-contained composition in a document, page, application, or site and that is, in principle, independently distributable or reusable, e.g. in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content."</em> - <strong>says the W3C</strong></p>
+
+
+
+    <h2 id="section">Section</h2>
+    <p>A Section represents a chunk of content with related meaning. Say you have an article about HTML5. You have some content about figures, some about headers, etc. Each part of the article might be a section. It's a sensible way to split up your content.</p>
+    <p>It's not supposed to be used just as a wrapper for styling though, it should be a real, meaningful section. Typically sections are found within articles, but not always. A section will typically have a heading at the top of it, but not always.</p>
+    <p><strong>The section element represents a generic document or application section. The section element is not a generic container element. When an element is needed for styling purposes or as a convenience for scripting, authors are encouraged to use the div element instead.</strong> - the W3C</p>
+
+
+    <h2 id="nav">Navigation</h2>
+    <p>The Nav tag wraps a series of navigation elements. Awesome.</p>
+
+
+    <h2 id="aside">Aside</h2>
+    <p>The Aside element is used for content that is related, but tangental to the main content. For example text quotes, and navigation.</p>
+    <p><em>"The aside element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content. Such sections are often represented as sidebars in printed typography.</em></p>
+    <p><em>The element can be used for typographical effects like pull quotes or sidebars, for advertising, for groups of nav elements, and for other content that is considered separate from the main content of the page."</em> The W3C</p>
+
+    <img src="http://24.media.tumblr.com/c3abee6eca4f4616f36fafc4938e7aa4/tumblr_meqgsz9GYt1rmmsdoo1_400.jpg" alt="kitten" />
+    <p class="caption">This is a lovely kitten</p>
+
+    <h2 id="figure">Figure and Figcaption</h2>
+    <p>These elements group together an image, or group of images with a caption. This is a very cool thing to be able to do.</p>
+    <h2>The W3C says:</h2>
+    <p><em>The figure element represents some flow content, optionally with a caption, that is self-contained and is typically referenced as a single unit from the main flow of the document.</em></p>
+    <p><em>The element can thus be used to annotate illustrations, diagrams, photos, code listings, etc, that are referred to from the main content of the document, but that could, without affecting the flow of the document, be moved away from that primary content, e.g. to the side of the page, to dedicated pages, or to an appendix.</em></p>
+    <p>Note that figures do not necessarily have to be images. A code listing, poem, or anything that illustrates a point, but is not the point, could be put in a figure. Also, you don't need to wrap every image in a figure. Use them for extra content that illustrates your point.</p>
+
+
+    <h2 id="hgroup">Hgroup</h2>
+    <p>The hgroup tag represents a group of related header elements. Hgroups can only contain the tags h1 to h6. </p>
+    <p>Often, when we write a title, we want a subtitle as well. In the past, we've had two choices, either</p>
+    <ol>
+    <li>Write the subtitle as a paragraph, then style it large</li>
+    <li>Write the subtitle as an h2, and mess up the document hierarchy.</li>
+    </ol>
+    <p>With an hgroup, we can use an h2 without messing up the hierarchy.</p>
+
+
+    <h2 id="div">Div</h2>
+    <p>A div is an arbitrary document division. Use it to mark up any section of the page.</p>
+
+
+    <h2 id="span">Span</h2>
+    <p>A span is an inline section of the page, use it for marking up bits of text within the text flow.</p>
+  </body>
+</html>
+
+
+1. Change the doctype
+2. Add headers and footers
+3. Give the nav a nav tag
+4. Article and sections
+5. Figure

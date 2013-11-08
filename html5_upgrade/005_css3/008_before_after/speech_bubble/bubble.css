@@ -1,0 +1,27 @@
+div {
+  width:300px;
+  height:100px;
+  margin:auto;
+  position:relative;
+  background:lightblue;
+  border-radius:0 1em 1em;
+  padding:1em;
+  margin-top:5em;
+  color:#fff;
+  font-family:arial;
+  font-weight:bold;
+  font-size:2em;
+}
+
+div:before {
+  position:absolute;
+  top:0;
+  left:-50px;
+  content:"";
+  border-top:50px solid lightblue;
+  border-left:50px solid transparent;
+  width:0;
+  height:0;
+  padding:0;
+  line-height:0;
+}

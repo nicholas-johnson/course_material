@@ -1,0 +1,5 @@
+Without intervention, block level elements will fill their containing element. If you set an image to be width 100%, it will fill its container.
+
+Provided the
+
+1.

@@ -1,0 +1,10 @@
+article {
+  width:40%;
+  float:left;
+  margin:0 2%;
+}
+
+article img {
+  width:100%;
+  display:block;
+}

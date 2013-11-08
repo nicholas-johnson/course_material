@@ -1,0 +1,9 @@
+1. First we'll need a font. Grab a font kit from: http://www.google.com/webfonts/
+
+2. Set the page h1 to the font you chose.
+
+Where to get fonts:
+
+You can get more free fonts from: http://www.google.com/webfonts/ or www.fontsquirrel.com
+
+If you would like a premium font, my choice is: http://www.myfonts.com.

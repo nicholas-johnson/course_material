@@ -1,0 +1,9 @@
+1. Download the HTML and CSS skeleton floats layout files from the dropbox
+
+2. Float the two columns left and right and give them percentage widths to create a two column layout.
+3. Tell the footer to clear:both
+
+You should now have a nice two column layout. If you have time, extend your layout like so:
+
+1. Add a third column.
+2. Use your CSS3 skills to nice it up a little.

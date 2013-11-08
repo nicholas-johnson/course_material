@@ -1,0 +1,33 @@
+body {
+  padding:100px;
+}
+
+.box {
+  width:100px;
+  height:100px;
+  border:2px solid #000;
+  -moz-transition:all 0.5s;
+  background:black;
+  border-radius:20px;
+}
+
+.box:hover {
+  transform:rotate(10deg) skew(5deg);
+  opacity:0.8;
+}
+
+
+
+
+
+
+
+
+
+/*
+ * top:30px;
+ * -moz-transition:top 2s
+ * Multiple Properties
+ * -moz-transform: skew(10deg, 10deg);
+ * -moz-transition:top 2s, -moz-transform 2s;
+ */

@@ -1,0 +1,26 @@
+
+
+/*
+
+Declare our animation keyframes like so:
+
+@-moz-keyframes pop {
+  from {
+    font-size:100%;
+  }
+  to {
+    font-size:500%;
+  }
+}
+
+then apply it to the element like so:
+
+div {
+  -moz-animation: pop 5s infinite
+}
+
+ * Count
+ * -moz-animation-iteration-count:infinite;
+ * Direction
+ * -moz-animation-direction: alternate;
+ * Not all properties are animatable

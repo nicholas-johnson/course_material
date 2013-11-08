@@ -1,0 +1,6 @@
+what_to_do.txt
+
+1. Go to the testing on a device page, and deploy to a server. Now test on your device.
+2. Now read up on Meta Viewport
+3. Attempt the meta-viewport exercise
+

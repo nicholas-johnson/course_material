@@ -1,0 +1,37 @@
+.rounded {
+  width:200px;
+  height:200px;
+  border:2px solid #000;
+  border-radius:10px / 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * border-radius:0px;
+ * Particular borders
+ * border-top-left-radius: 100px;
+ *
+ * Shorthand
+ * border-radius: 0px 20px 40px 60px;
+ *
+ * Asymetric
+ * Asymetric shorthand
+ * border-radius: 20px/40px;
+ * border-radius: 20px 30px 40px 50px/50px 40px 30px 20px;
+ *
+ * Border width effects
+ */
+
+ /*
+  * Browser support IE9
+  * Modernizr + background image
+  */

@@ -1,0 +1,24 @@
+
+
+
+
+
+
+/*
+ * Use a float layout to create a horizontal navigation out of an unordered list.
+ * Now use a media query to make it vertical
+ * @media screen and (max-width: 800px) {
+ *
+ * }
+ */
+
+
+/* Clearfix code
+
+.group:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+*/
+

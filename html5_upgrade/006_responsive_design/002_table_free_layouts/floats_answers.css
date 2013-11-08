@@ -1,0 +1,27 @@
+body {
+  width:80%;
+  margin:0 auto;
+}
+
+header {
+  background:#888;
+  border-bottom:2px solid black;
+}
+
+article {
+  float:right;
+  width:60%;
+  margin:1em 0;
+}
+
+aside {
+  float:left;
+  width:30%;
+  margin:1em 0;
+}
+
+footer {
+  clear:both;
+  background:#888;
+  border-top:2px solid black;
+}

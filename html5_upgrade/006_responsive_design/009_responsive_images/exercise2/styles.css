@@ -1,0 +1,36 @@
+body {
+  max-width:1000px;
+  margin:0 auto;
+}
+
+
+header img {
+  width:100%;
+  display:block;
+}
+
+nav ul, nav li {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav li {
+  width:33.3333%;
+  float:left;
+  padding:10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav img {
+  width:100%;
+}
+
+@media screen and (max-width:480px) {
+
+  li {
+    width:auto;
+    float:none;
+  }
+}

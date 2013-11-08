@@ -1,0 +1,13 @@
+We're going to make a real layout made from images
+
+1. Check out the goal image. This is what we're aiming for. I've left the grid lines on there to show you the working out, you don't need to integrate them
+2. In the images folder you'll find outsized images for each section. Use a float layout to implement the responsive design.
+
+Reading
+
+1. http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
+2. http://www.w3.org/community/respimg/
+
+A Polyfill - mimics future functionality
+
+1. https://github.com/scottjehl/picturefill

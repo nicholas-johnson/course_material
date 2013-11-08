@@ -1,0 +1,28 @@
+body {
+  background:#191816;
+  font-family:arial;
+  padding:10em;
+}
+
+header {
+  color:#191816;
+}
+
+div {
+  width:20px;
+  height:20px;
+  line-height:2.5em;
+  border:10px solid transparent;
+  border-top:10px solid #CE321C;
+  color:#CE321C;
+  -moz-transform:rotate(90deg);
+  border-radius:200px;
+  margin:auto;
+  -moz-transition:all 0.5s;
+
+}
+
+body>div:hover,
+body>div:hover div {
+  box-shadow:0 0 10px rgba(255,255,255,0.5);
+}

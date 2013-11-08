@@ -1,0 +1,37 @@
+body {
+  background:red;
+}
+
+div {
+  width:45%;
+  border:1px solid black;
+  float:right;
+}
+
+div:first-child {
+  float:left;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background:yellow;
+  }
+  div, div:first-child {
+    float:none;
+    width:auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 640px) */

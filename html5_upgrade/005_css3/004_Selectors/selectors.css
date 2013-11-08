@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+/*a[href$=".co.uk"] {
+  color:yellow;
+}
+
+li:first-child {
+  border:1px solid red;
+}
+
+li:nth-child(3n) {
+  background:#ccc;
+}
+
+li:nth-child(3n+1) {
+  background:#999;
+}
+
+li:nth-child(3n+2) {
+  background:#bbb;
+}
+
+a:not([href="http://www.google.com"]) {
+  color:yellow;
+}*/
+/*
+body :not(p) {
+  border:1px solid red;
+}*/
+
+
+
+
+/*
+equality [href="http://www.google.com"]
+contains [href*="google"]
+starts with [href^="https"]
+ends with [href$=".com"]
+No Inequality
+
+:nth-child(even) {background: #CCC}
+:nth-child(odd)
+li:nth-child(5n+3)
+
+a:not([href="http://www.google.co.uk"]) {
+  color:red;
+}
+*/

@@ -1,0 +1,32 @@
+
+.shadow {
+  width:300px;
+  height:300px;
+  position:absolute;
+  border:1px solid black;
+  top:100px;
+  left:100px;
+  background:red;
+  border-radius:200px;
+  box-shadow:inset 0px 0px 0 10px blue,inset 0px 0px 0 20px green;
+}
+
+
+
+
+
+
+/*
+ * box-shadow:0px 0px red;
+ * Blur
+ * Spread
+ * Multiple
+ * box-shadow:0px 0px red, 0px 0px red;
+ * inner
+ * box-shadow:inset 0px 0px red;
+ * RGBA
+ */
+
+/*
+ * Support IE9
+ */

@@ -1,0 +1,18 @@
+Fun Exercises
+
+1. Experiment with the heart, try to create an infinity sign
+2. Now create a series of 3 interlocked rings
+
+Boring Exercises
+
+1. Remember attribute selectors from part 1? Add a set of hyperlinks and put a bit of "external link" text next to each one with a rel=external attribute. e.g.
+
+<ul>
+  <li>
+    <a href="/link">dull internal link</a>
+  </li>
+  <li>
+    <a href="http://www.google.com" rel="external">This link should have a text next to it</a>
+  </li>
+</ul>
+

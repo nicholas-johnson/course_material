@@ -1,0 +1,53 @@
+body {
+}
+
+header {
+  background:#888;
+  border-bottom:2px solid black;
+}
+
+article {
+  margin:1em 0;
+  float:left;
+  width:60%;
+}
+
+aside {
+  margin:1em 0;
+  float:right;
+  width:30%;
+}
+
+footer {
+  border-top:2px solid black;
+  clear:both;
+}
+
+
+@media screen and (max-width: 800px) {
+  article,aside {
+    float:none;
+    width:auto;
+  }
+  article:after {
+    content: "...";
+    font-size:1em;
+    display:block;
+    text-align:center;
+  }
+}
+
+
+
+
+/* Now lets insert a media query
+ * Set the color
+ * Now unset the float layout
+ *
+ * @media screen and (max-width: 800px) {
+ *   article, aside {
+ *     float:none;
+ *     width:auto;
+ *   }
+ * }
+ */

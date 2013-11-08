@@ -1,0 +1,43 @@
+.first, .second {
+  position:absolute;
+  width:200px;
+  height:200px;
+  border:1px solid #000;
+}
+
+.first {
+  top:100px;
+  left:100px;
+  background:red;
+}
+
+.second {
+  top:200px;
+  left:200px;
+  background:rgba(0,0,255,0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#800000FF,endColorstr=#880000FF);
+}
+
+
+
+
+
+
+
+
+
+/*
+  background: rgba(255, 128, 128, 1);
+*/
+
+/*
+  Supported in IE9
+  Opacity is inherited, RGBA is not
+*/
+
+/*
+  IE Fallback
+  1. background: transparent url(pink.png);
+  2. filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#880000FF,endCol
+orstr=#880000FF);
+*/

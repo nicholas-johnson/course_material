@@ -1,0 +1,115 @@
+menu, body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: #9EBFC6;
+  font-family:"helvetica neue",helvetica, arial;
+}
+
+nav {
+  background:#006283;
+  display:block;
+  padding:1em 0;
+  width:100%;
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+nav ul {
+  max-width:1000px;
+  margin:0 auto;
+  padding:0;
+  list-style:none;
+}
+
+nav li {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav li {
+  border-left:1px solid grey;
+  float:left;
+}
+
+nav li:first-child {
+  border-left:none;
+}
+
+nav a {
+  padding:0em 1em;
+  display:block;
+  color: #DADDD2;
+  text-decoration:none;
+  font-size:1.1em;
+  font-weight:bold;
+  text-shadow:0.5px 0.5px #bbb;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+article {
+  background:#fff;
+  max-width:1000px;
+  margin:0 auto;
+  box-shadow:0 5px 20px rgba(0,0,0,0.5), inset 0 20px 20px -20px rgba(0,0,0,0.5);;
+  padding:2;
+  padding:1em 0;
+  line-height:1.5em;
+  letter-spacing:0.05em;
+}
+
+article>* {
+  margin:0 1em;
+}
+
+article p {
+  margin-bottom:1em;
+}
+
+
+@media screen and (max-width: 480px) {
+  nav {
+    background:transparent;
+  }
+  nav li {
+    float:none;
+    background:#006283;
+    border:1px solid grey;
+    border-radius:4px;
+    margin-bottom:2px ;
+    margin:0 1em 0.5em 1em;
+    text-align:center;
+    padding:0.5em 0;
+  }
+  nav li:first-child a {
+    padding-left:1em;
+  }
+}
+
+
+/* Clearfix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
+
+
+
+
+
+

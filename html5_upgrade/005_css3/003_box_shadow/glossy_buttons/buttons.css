@@ -1,0 +1,26 @@
+body {
+  background:black;
+}
+
+input[type="submit"] {
+  font-size:2em;
+  font-weight:bold;
+  padding:0.5em 1em;
+  margin:10px;
+  display:block;
+  border:1px solid #86B3CE;
+  border-radius:200px;
+  background: #86B3CE;
+  box-shadow:inset 0 10px 30px 2px #86B3CE, inset 0px -10px 3px 18px #4E84B4, 0px 0px 20px #fff;
+  color:#fff;
+  text-shadow:1px 1px #C9DAE8;
+  margin:10em auto;
+  -moz-transition:all 0.5s;
+  -webkit-transition:all 0.5s;
+  -o-transition:all 0.5s;
+  transition:all 0.5s;
+}
+input[type="submit"]:hover {
+  border:1px solid #4E84B4;
+  box-shadow:inset 0 10px 30px 2px #86B3CE, inset 0px -10px 3px 18px #4E84B4, 0px 0px 40px #fff;
+}

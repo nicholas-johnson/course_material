@@ -1,0 +1,15 @@
+
+
+
+Selectors
+
+Read Page 14-15 and attempt the exercise.
+Use the file included in your exercise folder
+
+15 minutes till 12:15
+
+Additional exercises:
+
+1. Draw a border round everything that is not a paragraph.
+2. Make everything which is not a paragraph have a red background.
+3. Select every third element

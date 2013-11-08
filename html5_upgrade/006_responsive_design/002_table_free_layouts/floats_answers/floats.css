@@ -1,0 +1,26 @@
+article,nav,header,footer,aside {
+  display:block;
+}
+
+header {
+  background:green;
+  color:white;
+}
+
+article {
+  border:1px solid red;
+  width:70%;
+  float:right;
+}
+
+aside {
+  border:1px solid green;
+  width:25%;
+  float:left;
+}
+
+footer {
+  clear:both;
+  border:1px solid red;
+}
+

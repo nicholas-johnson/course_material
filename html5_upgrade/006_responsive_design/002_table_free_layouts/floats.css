@@ -1,0 +1,64 @@
+article,nav,header,footer,aside {
+  display:block;
+  border:1px solid red;
+}
+
+body {
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+aside {
+  float:left;
+  width:30%;
+}
+
+article {
+  float:right;
+  width:60%;
+}
+
+footer {
+  clear:both;
+}
+
+@media screen and (max-width: 800px) {
+  article, aside {
+    float:none;
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  article, aside {
+    background:green;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  Demo
+  1. float elements to create a layout
+  2. Clear footer
+  3. Use max width and center
+  4. Demo padding using article>* hack
+
+  article>* {
+    margin:0 1em;
+  }
+*/
